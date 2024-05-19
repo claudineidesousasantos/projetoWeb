@@ -9,6 +9,8 @@ from django.shortcuts import redirect, get_object_or_404
 from django.urls import reverse
 from django.views.decorators.csrf import csrf_exempt
 
+# criando brant
+
 def cliente(request):
     if request.method == "GET":
         clientes_list = Cliente.objects.all()
